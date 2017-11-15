@@ -1,4 +1,6 @@
+# Built files / dependencies / data sensitive files
+.DS_Store
+.env
+.idea
 private-key.pem
 node_modules
-.idea
-.DS_Store

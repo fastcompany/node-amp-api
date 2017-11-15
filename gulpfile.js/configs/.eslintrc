@@ -30,10 +30,18 @@
         "semi": true,
         "useTabs": false
       }
-    ]
+    ],
+    "strict": [2, "global"]
   },
   "env": {
     "node": true,
     "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "modules": false
+    }
   }
 }

@@ -1,0 +1,7 @@
+.DS_Store
+.env
+.idea
+private-key.pem
+node_modules
+gulpfile.js
+test

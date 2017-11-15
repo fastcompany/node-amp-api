@@ -10,7 +10,7 @@
  when you run `gulp`.
  */
 
-import requireDir from 'require-dir';
+const requireDir = require('require-dir');
 
 // Require all tasks in gulpfile.js/tasks, including subfolders
 requireDir('./tasks', {

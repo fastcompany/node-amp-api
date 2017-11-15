@@ -1,5 +1,7 @@
-import gulp from 'gulp';
-import esdoc from 'gulp-esdoc';
+'use strict';
+
+const gulp = require('gulp');
+const esdoc = require('gulp-esdoc');
 
 gulp.task('js-doc', function jsDoc() {
   gulp.src(['src']).pipe(
