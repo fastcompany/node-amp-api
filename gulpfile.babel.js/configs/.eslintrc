@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "comma-dangle": [
+      2,
+      "never"
+    ],
+    "prefer-arrow-callback": [
+      "error",
+      {
+        "allowNamedFunctions": true
+      }
+    ],
+    "class-methods-use-this": [
+      0
+    ],
+    "no-prototype-builtins": [
+      0
+    ],
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "semi": true,
+        "useTabs": false
+      }
+    ]
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
