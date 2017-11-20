@@ -11,7 +11,7 @@
 ## Installation
 
 ```shell
-npm i node-amp-api --save --save-exact
+npm i amp-api --save --save-exact
 ```
 
 ## Usage
